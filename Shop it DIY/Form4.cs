@@ -158,53 +158,11 @@ namespace Shop_it_DIY
                 };
                 listView1.Items.Add(new ListViewItem(data));
 
-
-                //HtmlNode NameNode = doc.DocumentNode
-                //    .SelectSingleNode("//meta[@property=\"og:title\"]");
-                //product.Pd_name = NameNode.Attributes["content"].Value;
-
-                //HtmlNode descriptionNode = doc.DocumentNode
-                //    .SelectSingleNode("//meta[@property=\"og:description\"]");
-                //product.Pd_detail = descriptionNode.Attributes["content"].Value;
-                //Console.WriteLine(product.Pd_detail);
             }
             catch (Exception)
             {
-                //HtmlNode NameNode = doc.DocumentNode
-                //    .SelectSingleNode("//meta[@property=\"og:title\"]");
-                //product.Pd_name = NameNode.Attributes["content"].Value;
-                //Console.WriteLine(product.Pd_name);
 
-                //HtmlNode descriptionNode = doc.DocumentNode
-                //    .SelectSingleNode("//meta[@property=\"og:description\"]");
-                //product.Pd_detail = descriptionNode.Attributes["content"].Value;
-                //Console.WriteLine(product.Pd_detail);
             }
-
-            //HtmlNode priceNode = doc.DocumentNode
-            //    .SelectSingleNode("//div[@class=" +
-            //    "\"col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center price_block\"]");
-            //String price = priceNode.InnerText;
-            //price = new string(price.Where(c => char.IsDigit(c)).ToArray());
-            //product.Pd_unitprice = decimal.Parse(price + ".00");
-            //Console.WriteLine(product.Pd_unitprice);
-
-            //HtmlNode imageNode = doc.DocumentNode
-            //    .SelectSingleNode("//meta[@property=\"og:image\"]");
-            //product.Pd_img = imageNode.Attributes["content"].Value;
-            //Console.WriteLine(product.Pd_img);
-
-            //product.Pd_stock = 10;
-            //Console.WriteLine(product.Pd_stock);
-
-            //var typeNode = doc.DocumentNode
-            //    .SelectNodes("//div[@class=\"step_nav\"]//a");
-            //product.Pd_type = typeNode[2].InnerText;
-            //Console.WriteLine(product.Pd_type);
-
-            //context.Sproducts.Add(product);
-            //qc += context.SaveChanges();
-                //Console.WriteLine(qc);
 
 
         }
