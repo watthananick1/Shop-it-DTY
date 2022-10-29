@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d3bb18d341cb452c9030ca5022cdbe98" Name="Diagram1">
+        <EntityTypeShape EntityType="APD65_63011212052Model.Scustomer" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="APD65_63011212052Model.Semployee" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="APD65_63011212052Model.SOrder" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="APD65_63011212052Model.SOrderItem" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="APD65_63011212052Model.Sproduct" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="APD65_63011212052Model.Spromotion" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="APD65_63011212052Model.Sstatu" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="APD65_63011212052Model.View_1" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="APD65_63011212052Model.FK_SOrder_Scustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="APD65_63011212052Model.FK_Semployee_Sstatus" ManuallyRouted="false" />
+        <AssociationConnector Association="APD65_63011212052Model.FK_SOrder_Semployee" ManuallyRouted="false" />
+        <AssociationConnector Association="APD65_63011212052Model.FK_SOrder_Spromotion" ManuallyRouted="false" />
+        <AssociationConnector Association="APD65_63011212052Model.FK_SOrderItem_SOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="APD65_63011212052Model.FK_SOrderItem_Sproducts" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

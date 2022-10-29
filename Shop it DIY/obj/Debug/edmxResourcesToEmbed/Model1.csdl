@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="APD65_63011212052Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Scustomer">
+    <Key>
+      <PropertyRef Name="Cm_id" />
+    </Key>
+    <Property Name="Cm_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cm_firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cm_lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cm_phone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cm_email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SOrders" Relationship="Self.FK_SOrder_Scustomer" FromRole="Scustomer" ToRole="SOrder" />
+  </EntityType>
+  <EntityType Name="Semployee">
+    <Key>
+      <PropertyRef Name="Em_ID" />
+    </Key>
+    <Property Name="Em_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Em_firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Em_lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Em_phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Em_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Em_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Em_status" Type="Int32" Nullable="false" />
+    <Property Name="Em_pssword" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Em_username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Sstatu" Relationship="Self.FK_Semployee_Sstatus" FromRole="Semployee" ToRole="Sstatus" />
+    <NavigationProperty Name="SOrders" Relationship="Self.FK_SOrder_Semployee" FromRole="Semployee" ToRole="SOrder" />
+  </EntityType>
+  <EntityType Name="SOrder">
+    <Key>
+      <PropertyRef Name="Or_ID" />
+    </Key>
+    <Property Name="Or_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Or_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Or_ornum" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Or_totalamount" Type="Decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="Or_EmID" Type="Int32" Nullable="false" />
+    <Property Name="Or_CmID" Type="Int32" Nullable="false" />
+    <Property Name="Or_Pro" Type="Int32" />
+    <NavigationProperty Name="Scustomer" Relationship="Self.FK_SOrder_Scustomer" FromRole="SOrder" ToRole="Scustomer" />
+    <NavigationProperty Name="Semployee" Relationship="Self.FK_SOrder_Semployee" FromRole="SOrder" ToRole="Semployee" />
+    <NavigationProperty Name="Spromotion" Relationship="Self.FK_SOrder_Spromotion" FromRole="SOrder" ToRole="Spromotion" />
+    <NavigationProperty Name="SOrderItems" Relationship="Self.FK_SOrderItem_SOrder" FromRole="SOrder" ToRole="SOrderItem" />
+  </EntityType>
+  <EntityType Name="SOrderItem">
+    <Key>
+      <PropertyRef Name="It_ID" />
+    </Key>
+    <Property Name="It_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="It_OrderID" Type="Int32" Nullable="false" />
+    <Property Name="It_productNID" Type="Int32" Nullable="false" />
+    <Property Name="It_productID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="It_unitprice" Type="Decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="It_Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="SOrder" Relationship="Self.FK_SOrderItem_SOrder" FromRole="SOrderItem" ToRole="SOrder" />
+    <NavigationProperty Name="Sproduct" Relationship="Self.FK_SOrderItem_Sproducts" FromRole="SOrderItem" ToRole="Sproducts" />
+  </EntityType>
+  <EntityType Name="Sproduct">
+    <Key>
+      <PropertyRef Name="Pd_nID" />
+    </Key>
+    <Property Name="Pd_nID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pd_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pd_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pd_detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pd_unitprice" Type="Decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="Pd_stock" Type="Int32" Nullable="false" />
+    <Property Name="Pd_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pd_img" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SOrderItems" Relationship="Self.FK_SOrderItem_Sproducts" FromRole="Sproducts" ToRole="SOrderItem" />
+  </EntityType>
+  <EntityType Name="Spromotion">
+    <Key>
+      <PropertyRef Name="Pm_ID" />
+    </Key>
+    <Property Name="Pm_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pm_Pfirst" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pm_Psecond" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pm_rebate" Type="Decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="Pm_PfirstID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pm_PsecondID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SOrders" Relationship="Self.FK_SOrder_Spromotion" FromRole="Spromotion" ToRole="SOrder" />
+  </EntityType>
+  <EntityType Name="Sstatu">
+    <Key>
+      <PropertyRef Name="Status_id" />
+    </Key>
+    <Property Name="Status_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Semployees" Relationship="Self.FK_Semployee_Sstatus" FromRole="Sstatus" ToRole="Semployee" />
+  </EntityType>
+  <EntityType Name="View_1">
+    <Key>
+      <PropertyRef Name="Expr1" />
+    </Key>
+    <Property Name="Expr1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_SOrder_Scustomer">
+    <End Role="Scustomer" Type="Self.Scustomer" Multiplicity="1" />
+    <End Role="SOrder" Type="Self.SOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Scustomer">
+        <PropertyRef Name="Cm_id" />
+      </Principal>
+      <Dependent Role="SOrder">
+        <PropertyRef Name="Or_CmID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Semployee_Sstatus">
+    <End Role="Sstatus" Type="Self.Sstatu" Multiplicity="1" />
+    <End Role="Semployee" Type="Self.Semployee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sstatus">
+        <PropertyRef Name="Status_id" />
+      </Principal>
+      <Dependent Role="Semployee">
+        <PropertyRef Name="Em_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SOrder_Semployee">
+    <End Role="Semployee" Type="Self.Semployee" Multiplicity="1" />
+    <End Role="SOrder" Type="Self.SOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Semployee">
+        <PropertyRef Name="Em_ID" />
+      </Principal>
+      <Dependent Role="SOrder">
+        <PropertyRef Name="Or_EmID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SOrder_Spromotion">
+    <End Role="Spromotion" Type="Self.Spromotion" Multiplicity="0..1" />
+    <End Role="SOrder" Type="Self.SOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spromotion">
+        <PropertyRef Name="Pm_ID" />
+      </Principal>
+      <Dependent Role="SOrder">
+        <PropertyRef Name="Or_Pro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SOrderItem_SOrder">
+    <End Role="SOrder" Type="Self.SOrder" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SOrderItem" Type="Self.SOrderItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SOrder">
+        <PropertyRef Name="Or_ID" />
+      </Principal>
+      <Dependent Role="SOrderItem">
+        <PropertyRef Name="It_OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SOrderItem_Sproducts">
+    <End Role="Sproducts" Type="Self.Sproduct" Multiplicity="1" />
+    <End Role="SOrderItem" Type="Self.SOrderItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sproducts">
+        <PropertyRef Name="Pd_nID" />
+      </Principal>
+      <Dependent Role="SOrderItem">
+        <PropertyRef Name="It_productNID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="APD65_63011212052Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Scustomers" EntityType="Self.Scustomer" />
+    <EntitySet Name="Semployees" EntityType="Self.Semployee" />
+    <EntitySet Name="SOrders" EntityType="Self.SOrder" />
+    <EntitySet Name="SOrderItems" EntityType="Self.SOrderItem" />
+    <EntitySet Name="Sproducts" EntityType="Self.Sproduct" />
+    <EntitySet Name="Spromotions" EntityType="Self.Spromotion" />
+    <EntitySet Name="Sstatus" EntityType="Self.Sstatu" />
+    <EntitySet Name="View_1" EntityType="Self.View_1" />
+    <AssociationSet Name="FK_SOrder_Scustomer" Association="Self.FK_SOrder_Scustomer">
+      <End Role="Scustomer" EntitySet="Scustomers" />
+      <End Role="SOrder" EntitySet="SOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Semployee_Sstatus" Association="Self.FK_Semployee_Sstatus">
+      <End Role="Sstatus" EntitySet="Sstatus" />
+      <End Role="Semployee" EntitySet="Semployees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SOrder_Semployee" Association="Self.FK_SOrder_Semployee">
+      <End Role="Semployee" EntitySet="Semployees" />
+      <End Role="SOrder" EntitySet="SOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SOrder_Spromotion" Association="Self.FK_SOrder_Spromotion">
+      <End Role="Spromotion" EntitySet="Spromotions" />
+      <End Role="SOrder" EntitySet="SOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SOrderItem_SOrder" Association="Self.FK_SOrderItem_SOrder">
+      <End Role="SOrder" EntitySet="SOrders" />
+      <End Role="SOrderItem" EntitySet="SOrderItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SOrderItem_Sproducts" Association="Self.FK_SOrderItem_Sproducts">
+      <End Role="Sproducts" EntitySet="Sproducts" />
+      <End Role="SOrderItem" EntitySet="SOrderItems" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

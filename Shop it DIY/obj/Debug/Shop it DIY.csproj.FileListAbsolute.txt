@@ -1,0 +1,77 @@
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Shop it DIY.exe.config
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Shop it DIY.exe
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Shop it DIY.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\EntityFramework.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\EntityFramework.SqlServer.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\EntityFramework.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\EntityFramework.SqlServer.xml
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop it DIY.csproj.AssemblyReference.cache
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop it DIY.csproj.SuggestedBindingRedirects.cache
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop_it_DIY.Form1.resources
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop_it_DIY.Form2.resources
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop_it_DIY.Form3.resources
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop_it_DIY.Form4.resources
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop_it_DIY.Properties.Resources.resources
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop it DIY.csproj.GenerateResource.cache
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop it DIY.csproj.CoreCompileInputs.cache
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop it DIY.csproj.CopyComplete
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop it DIY.exe
+C:\APD\Shop it DIY\Shop it DIY\obj\Debug\Shop it DIY.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Controls.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Imaging.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Math.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Video.DirectShow.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Video.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Vision.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\HtmlAgilityPack.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Buffers.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Collections.Immutable.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Memory.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Numerics.Vectors.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Text.Encodings.Web.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Text.Json.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.ValueTuple.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.Diagnostics.Eventing.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.Foundation.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.Foundation.Logging.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.Composition.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.Dispatching.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.FluentTheme.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.FluentTheme.v1.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.FluentTheme.v2.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.Toolkit.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.Xaml.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\zxing.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\zxing.presentation.dll
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Controls.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Imaging.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Math.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Video.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Video.DirectShow.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\AForge.Vision.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\HtmlAgilityPack.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\HtmlAgilityPack.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Buffers.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Collections.Immutable.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Memory.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Numerics.Vectors.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Text.Encodings.Web.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Text.Json.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\System.ValueTuple.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.Diagnostics.Eventing.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.FluentTheme.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.FluentTheme.v1.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.FluentTheme.v2.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\Uno.UI.Toolkit.pdb
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\zxing.xml
+C:\APD\Shop it DIY\Shop it DIY\bin\Debug\zxing.presentation.xml

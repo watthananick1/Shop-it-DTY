@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="APD65_63011212052ModelStoreContainer" CdmEntityContainer="APD65_63011212052Entities">
+    <EntitySetMapping Name="Scustomers">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.Scustomer">
+        <MappingFragment StoreEntitySet="Scustomer">
+          <ScalarProperty Name="Cm_id" ColumnName="Cm_id" />
+          <ScalarProperty Name="Cm_firstname" ColumnName="Cm_firstname" />
+          <ScalarProperty Name="Cm_lastname" ColumnName="Cm_lastname" />
+          <ScalarProperty Name="Cm_phone" ColumnName="Cm_phone" />
+          <ScalarProperty Name="Cm_email" ColumnName="Cm_email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Semployees">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.Semployee">
+        <MappingFragment StoreEntitySet="Semployee">
+          <ScalarProperty Name="Em_ID" ColumnName="Em_ID" />
+          <ScalarProperty Name="Em_firstname" ColumnName="Em_firstname" />
+          <ScalarProperty Name="Em_lastname" ColumnName="Em_lastname" />
+          <ScalarProperty Name="Em_phone" ColumnName="Em_phone" />
+          <ScalarProperty Name="Em_image" ColumnName="Em_image" />
+          <ScalarProperty Name="Em_email" ColumnName="Em_email" />
+          <ScalarProperty Name="Em_status" ColumnName="Em_status" />
+          <ScalarProperty Name="Em_pssword" ColumnName="Em_pssword" />
+          <ScalarProperty Name="Em_username" ColumnName="Em_username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SOrders">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.SOrder">
+        <MappingFragment StoreEntitySet="SOrder">
+          <ScalarProperty Name="Or_ID" ColumnName="Or_ID" />
+          <ScalarProperty Name="Or_date" ColumnName="Or_date" />
+          <ScalarProperty Name="Or_ornum" ColumnName="Or_ornum" />
+          <ScalarProperty Name="Or_totalamount" ColumnName="Or_totalamount" />
+          <ScalarProperty Name="Or_EmID" ColumnName="Or_EmID" />
+          <ScalarProperty Name="Or_CmID" ColumnName="Or_CmID" />
+          <ScalarProperty Name="Or_Pro" ColumnName="Or_Pro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SOrderItems">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.SOrderItem">
+        <MappingFragment StoreEntitySet="SOrderItem">
+          <ScalarProperty Name="It_ID" ColumnName="It_ID" />
+          <ScalarProperty Name="It_OrderID" ColumnName="It_OrderID" />
+          <ScalarProperty Name="It_productNID" ColumnName="It_productNID" />
+          <ScalarProperty Name="It_productID" ColumnName="It_productID" />
+          <ScalarProperty Name="It_unitprice" ColumnName="It_unitprice" />
+          <ScalarProperty Name="It_Quantity" ColumnName="It_Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sproducts">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.Sproduct">
+        <MappingFragment StoreEntitySet="Sproducts">
+          <ScalarProperty Name="Pd_nID" ColumnName="Pd_nID" />
+          <ScalarProperty Name="Pd_ID" ColumnName="Pd_ID" />
+          <ScalarProperty Name="Pd_name" ColumnName="Pd_name" />
+          <ScalarProperty Name="Pd_detail" ColumnName="Pd_detail" />
+          <ScalarProperty Name="Pd_unitprice" ColumnName="Pd_unitprice" />
+          <ScalarProperty Name="Pd_stock" ColumnName="Pd_stock" />
+          <ScalarProperty Name="Pd_type" ColumnName="Pd_type" />
+          <ScalarProperty Name="Pd_img" ColumnName="Pd_img" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Spromotions">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.Spromotion">
+        <MappingFragment StoreEntitySet="Spromotion">
+          <ScalarProperty Name="Pm_ID" ColumnName="Pm_ID" />
+          <ScalarProperty Name="Pm_Pfirst" ColumnName="Pm_Pfirst" />
+          <ScalarProperty Name="Pm_Psecond" ColumnName="Pm_Psecond" />
+          <ScalarProperty Name="Pm_rebate" ColumnName="Pm_rebate" />
+          <ScalarProperty Name="Pm_PfirstID" ColumnName="Pm_PfirstID" />
+          <ScalarProperty Name="Pm_PsecondID" ColumnName="Pm_PsecondID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sstatus">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.Sstatu">
+        <MappingFragment StoreEntitySet="Sstatus">
+          <ScalarProperty Name="Status_id" ColumnName="Status_id" />
+          <ScalarProperty Name="Status_name" ColumnName="Status_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_1">
+      <EntityTypeMapping TypeName="APD65_63011212052Model.View_1">
+        <MappingFragment StoreEntitySet="View_1">
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
