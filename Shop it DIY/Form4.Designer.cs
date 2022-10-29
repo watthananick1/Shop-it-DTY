@@ -93,6 +93,12 @@
             this.sproductBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.pmIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pmPfirstIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pmPfirstDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pmPsecondIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pmPsecondDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pmrebateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.spromotionBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pdIDDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pdnameDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -106,12 +112,6 @@
             this.pdunitpriceDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pdstockDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pdtypeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pmIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pmPfirstIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pmPfirstDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pmPsecondIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pmPsecondDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pmrebateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -531,6 +531,8 @@
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView4.Size = new System.Drawing.Size(571, 677);
             this.dataGridView4.TabIndex = 0;
+            this.dataGridView4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
+            this.dataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellContentClick);
             // 
             // groupBox4
             // 
@@ -746,6 +748,7 @@
             this.button7.TabIndex = 4;
             this.button7.Text = "Delete";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // groupBox5
             // 
@@ -890,6 +893,60 @@
             // 
             this.bindingSource1.DataSource = typeof(Shop_it_DIY.Sproduct);
             // 
+            // pmIDDataGridViewTextBoxColumn
+            // 
+            this.pmIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pmIDDataGridViewTextBoxColumn.DataPropertyName = "Pm_ID";
+            this.pmIDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.pmIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pmIDDataGridViewTextBoxColumn.Name = "pmIDDataGridViewTextBoxColumn";
+            this.pmIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pmPfirstIDDataGridViewTextBoxColumn
+            // 
+            this.pmPfirstIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pmPfirstIDDataGridViewTextBoxColumn.DataPropertyName = "Pm_PfirstID";
+            this.pmPfirstIDDataGridViewTextBoxColumn.HeaderText = "First ID";
+            this.pmPfirstIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pmPfirstIDDataGridViewTextBoxColumn.Name = "pmPfirstIDDataGridViewTextBoxColumn";
+            this.pmPfirstIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pmPfirstDataGridViewTextBoxColumn
+            // 
+            this.pmPfirstDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pmPfirstDataGridViewTextBoxColumn.DataPropertyName = "Pm_Pfirst";
+            this.pmPfirstDataGridViewTextBoxColumn.HeaderText = "First";
+            this.pmPfirstDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pmPfirstDataGridViewTextBoxColumn.Name = "pmPfirstDataGridViewTextBoxColumn";
+            this.pmPfirstDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pmPsecondIDDataGridViewTextBoxColumn
+            // 
+            this.pmPsecondIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pmPsecondIDDataGridViewTextBoxColumn.DataPropertyName = "Pm_PsecondID";
+            this.pmPsecondIDDataGridViewTextBoxColumn.HeaderText = "Second ID";
+            this.pmPsecondIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pmPsecondIDDataGridViewTextBoxColumn.Name = "pmPsecondIDDataGridViewTextBoxColumn";
+            this.pmPsecondIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pmPsecondDataGridViewTextBoxColumn
+            // 
+            this.pmPsecondDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pmPsecondDataGridViewTextBoxColumn.DataPropertyName = "Pm_Psecond";
+            this.pmPsecondDataGridViewTextBoxColumn.HeaderText = "Second";
+            this.pmPsecondDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pmPsecondDataGridViewTextBoxColumn.Name = "pmPsecondDataGridViewTextBoxColumn";
+            this.pmPsecondDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pmrebateDataGridViewTextBoxColumn
+            // 
+            this.pmrebateDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pmrebateDataGridViewTextBoxColumn.DataPropertyName = "Pm_rebate";
+            this.pmrebateDataGridViewTextBoxColumn.HeaderText = "Rebate";
+            this.pmrebateDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pmrebateDataGridViewTextBoxColumn.Name = "pmrebateDataGridViewTextBoxColumn";
+            this.pmrebateDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
             // spromotionBindingSource
             // 
             this.spromotionBindingSource.DataSource = typeof(Shop_it_DIY.Spromotion);
@@ -1001,60 +1058,6 @@
             this.pdtypeDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.pdtypeDataGridViewTextBoxColumn1.Name = "pdtypeDataGridViewTextBoxColumn1";
             this.pdtypeDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // pmIDDataGridViewTextBoxColumn
-            // 
-            this.pmIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pmIDDataGridViewTextBoxColumn.DataPropertyName = "Pm_ID";
-            this.pmIDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.pmIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pmIDDataGridViewTextBoxColumn.Name = "pmIDDataGridViewTextBoxColumn";
-            this.pmIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pmPfirstIDDataGridViewTextBoxColumn
-            // 
-            this.pmPfirstIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pmPfirstIDDataGridViewTextBoxColumn.DataPropertyName = "Pm_PfirstID";
-            this.pmPfirstIDDataGridViewTextBoxColumn.HeaderText = "First ID";
-            this.pmPfirstIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pmPfirstIDDataGridViewTextBoxColumn.Name = "pmPfirstIDDataGridViewTextBoxColumn";
-            this.pmPfirstIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pmPfirstDataGridViewTextBoxColumn
-            // 
-            this.pmPfirstDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pmPfirstDataGridViewTextBoxColumn.DataPropertyName = "Pm_Pfirst";
-            this.pmPfirstDataGridViewTextBoxColumn.HeaderText = "First";
-            this.pmPfirstDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pmPfirstDataGridViewTextBoxColumn.Name = "pmPfirstDataGridViewTextBoxColumn";
-            this.pmPfirstDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pmPsecondIDDataGridViewTextBoxColumn
-            // 
-            this.pmPsecondIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pmPsecondIDDataGridViewTextBoxColumn.DataPropertyName = "Pm_PsecondID";
-            this.pmPsecondIDDataGridViewTextBoxColumn.HeaderText = "Second ID";
-            this.pmPsecondIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pmPsecondIDDataGridViewTextBoxColumn.Name = "pmPsecondIDDataGridViewTextBoxColumn";
-            this.pmPsecondIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pmPsecondDataGridViewTextBoxColumn
-            // 
-            this.pmPsecondDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pmPsecondDataGridViewTextBoxColumn.DataPropertyName = "Pm_Psecond";
-            this.pmPsecondDataGridViewTextBoxColumn.HeaderText = "Second";
-            this.pmPsecondDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pmPsecondDataGridViewTextBoxColumn.Name = "pmPsecondDataGridViewTextBoxColumn";
-            this.pmPsecondDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pmrebateDataGridViewTextBoxColumn
-            // 
-            this.pmrebateDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pmrebateDataGridViewTextBoxColumn.DataPropertyName = "Pm_rebate";
-            this.pmrebateDataGridViewTextBoxColumn.HeaderText = "Rebate";
-            this.pmrebateDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pmrebateDataGridViewTextBoxColumn.Name = "pmrebateDataGridViewTextBoxColumn";
-            this.pmrebateDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // Form4
             // 

@@ -442,29 +442,29 @@ namespace Shop_it_DIY
                 if (!string.IsNullOrEmpty(textBox10.Text))
                 {
                     string name = textBox10.Text;
-                    sproductBindingSource.DataSource = context.Sproducts.Where(s => s.Pd_name == name || s.Pd_name.Contains(name)).ToList();
+                    bindingSource2.DataSource = context.Sproducts.Where(s => s.Pd_name == name || s.Pd_name.Contains(name)).ToList();
                 }
                 else
                 {
-                    sproductBindingSource.DataSource = context.Sproducts.ToList();
+                    bindingSource2.DataSource = context.Sproducts.ToList();
                 }
                 if (!string.IsNullOrEmpty(textBox9.Text))
                 {
                     string detail = textBox9.Text;
-                    sproductBindingSource.DataSource = context.Sproducts.Where(s => s.Pd_detail == detail || s.Pd_detail.Contains(detail)).ToList();
+                    bindingSource2.DataSource = context.Sproducts.Where(s => s.Pd_detail == detail || s.Pd_detail.Contains(detail)).ToList();
                 }
                 else
                 {
-                    sproductBindingSource.DataSource = context.Sproducts.ToList();
+                    bindingSource2.DataSource = context.Sproducts.ToList();
                 }
                 if (!string.IsNullOrEmpty(comboBox2.Text))
                 {
                     string type = comboBox2.Text;
-                    sproductBindingSource.DataSource = context.Sproducts.Where(s => s.Pd_type == type || s.Pd_detail.Contains(type)).ToList();
+                    bindingSource2.DataSource = context.Sproducts.Where(s => s.Pd_type == type || s.Pd_detail.Contains(type)).ToList();
                 }
                 else
                 {
-                    sproductBindingSource.DataSource = context.Sproducts.ToList();
+                    bindingSource2.DataSource = context.Sproducts.ToList();
                 }
 
             }

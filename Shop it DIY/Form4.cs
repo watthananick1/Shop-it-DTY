@@ -299,5 +299,36 @@ namespace Shop_it_DIY
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(this.id.ToString());
+
+            var result = context.Spromotions
+                .Where(p => p.Pm_ID == id).First();
+
+            context.Spromotions.Remove(result);
+            int change = context.SaveChanges();
+            if (change > 0)
+            {
+                MessageBox.Show("Delete success");
+            }
+            else
+            {
+                MessageBox.Show("Delete failed");
+            }
+
+            spromotionBindingSource.DataSource = context.Spromotions.ToList();
+        }
+
+        private void dataGridView4_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.id = dataGridView4.SelectedRows[0].Cells[0].Value.ToString();
+        }
+
+        private void dataGridView4_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.id = dataGridView4.SelectedRows[0].Cells[0].Value.ToString();
+        }
     }
 }
