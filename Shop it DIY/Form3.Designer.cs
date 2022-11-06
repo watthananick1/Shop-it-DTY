@@ -181,6 +181,7 @@
             this.orCmIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.orProDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox23 = new System.Windows.Forms.TextBox();
             this.groupBox6.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -398,6 +399,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox7.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox7.Controls.Add(this.textBox23);
             this.groupBox7.Controls.Add(this.button14);
             this.groupBox7.Controls.Add(this.button10);
             this.groupBox7.Controls.Add(this.dataGridView2);
@@ -1927,6 +1929,14 @@
             // 
             this.bindingSource1.DataSource = typeof(Shop_it_DIY.SOrder);
             // 
+            // textBox23
+            // 
+            this.textBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox23.Location = new System.Drawing.Point(523, 20);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(242, 29);
+            this.textBox23.TabIndex = 25;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1942,6 +1952,7 @@
             this.groupBox6.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
@@ -2141,5 +2152,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn orCmIDDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn orProDataGridViewTextBoxColumn1;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.TextBox textBox23;
     }
 }

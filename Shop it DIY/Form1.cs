@@ -96,7 +96,24 @@ namespace Shop_it_DIY
 
         private void button4_Click(object sender, EventArgs e)
         {
-            scustomerBindingSource.DataSource = context.Scustomers.ToList();
+            
+            try
+            {
+                if (!string.IsNullOrEmpty(textBox23.Text))
+                {
+                    String text = textBox23.Text;
+                    scustomerBindingSource.DataSource = context.Scustomers.Where(s => s.Cm_firstname == text || s.Cm_lastname == text || s.Cm_email == text).First();
+                }
+                else 
+                {
+                    scustomerBindingSource.DataSource = context.Scustomers.ToList();
+                }
+            }
+            catch
+            {
+                
+            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -155,10 +172,32 @@ namespace Shop_it_DIY
 
         private void button8_Click(object sender, EventArgs e)
         {
-            semployeeBindingSource.DataSource = context.Semployees.Where(s => s.Em_status > 1).ToList();
-            int id = int.Parse(dataGridView2.SelectedRows[0].Cells[0].Value.ToString());
-            int statusid = context.Semployees.Where(s => s.Em_ID == id).Select(p => p.Em_status).First();
-            comboBox1.Text = context.Sstatus.Where(s => s.Status_id == statusid).Select(p => p.Status_name).First();
+            if (!string.IsNullOrEmpty(textBox22.Text))
+            {
+                var text = textBox22.Text;
+                try
+                {
+                    semployeeBindingSource.DataSource = context.Semployees.Where(s => s.Em_firstname == text ||
+                    s.Em_lastname == text || s.Em_email == text || s.Em_phone == text).First();
+                }
+                catch
+                {
+                    //MessageBox.Show("No information found ", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    semployeeBindingSource.DataSource = context.Semployees.Where(s => s.Em_status > 1).ToList();
+                    int id = int.Parse(dataGridView2.SelectedRows[0].Cells[0].Value.ToString());
+                    int statusid = context.Semployees.Where(s => s.Em_ID == id).Select(p => p.Em_status).First();
+                    comboBox1.Text = context.Sstatus.Where(s => s.Status_id == statusid).Select(p => p.Status_name).First();
+
+                }
+
+            }
+            else {
+                semployeeBindingSource.DataSource = context.Semployees.Where(s => s.Em_status > 1).ToList();
+                int id = int.Parse(dataGridView2.SelectedRows[0].Cells[0].Value.ToString());
+                int statusid = context.Semployees.Where(s => s.Em_ID == id).Select(p => p.Em_status).First();
+                comboBox1.Text = context.Sstatus.Where(s => s.Status_id == statusid).Select(p => p.Status_name).First();
+            }
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -381,6 +420,12 @@ namespace Shop_it_DIY
             {
 
             }
+        }
+
+        private void textBox22_TextChanged(object sender, EventArgs e)
+        {
+
+            
         }
     }
 }

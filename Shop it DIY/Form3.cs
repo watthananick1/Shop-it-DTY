@@ -482,7 +482,22 @@ namespace Shop_it_DIY
 
         private void button10_Click(object sender, EventArgs e)
         {
-            scustomerBindingSource.DataSource = context.Scustomers.ToList();
+            try
+            {
+                if (!string.IsNullOrEmpty(textBox23.Text))
+                {
+                    String text = textBox23.Text;
+                    scustomerBindingSource.DataSource = context.Scustomers.Where(s => s.Cm_firstname == text || s.Cm_lastname == text || s.Cm_email == text).First();
+                }
+                else
+                {
+                    scustomerBindingSource.DataSource = context.Scustomers.ToList();
+                }
+            }
+            catch
+            {
+
+            }
         }
 
         private void button12_Click(object sender, EventArgs e)

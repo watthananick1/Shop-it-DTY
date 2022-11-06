@@ -103,6 +103,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -166,6 +167,7 @@
             this.orProDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.sproductBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox23 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
@@ -1114,6 +1116,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox5.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox5.Controls.Add(this.textBox22);
             this.groupBox5.Controls.Add(this.dataGridView2);
             this.groupBox5.Controls.Add(this.button1);
             this.groupBox5.Controls.Add(this.groupBox6);
@@ -1128,6 +1131,15 @@
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "ข้อมูลพนักงานทั้งหมด";
+            // 
+            // textBox22
+            // 
+            this.textBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox22.Location = new System.Drawing.Point(528, 18);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(242, 29);
+            this.textBox22.TabIndex = 23;
+            this.textBox22.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
             // 
             // dataGridView2
             // 
@@ -1279,6 +1291,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox3.Controls.Add(this.textBox23);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button4);
             this.groupBox3.Controls.Add(this.dataGridView1);
@@ -1761,6 +1774,14 @@
             // 
             this.sproductBindingSource.DataSource = typeof(Shop_it_DIY.Sproduct);
             // 
+            // textBox23
+            // 
+            this.textBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox23.Location = new System.Drawing.Point(523, 21);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(242, 29);
+            this.textBox23.TabIndex = 24;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1799,8 +1820,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -1956,6 +1979,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn orCmIDDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn orProDataGridViewTextBoxColumn1;
         private System.Windows.Forms.BindingSource bindingSource2;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox23;
     }
 }
 
