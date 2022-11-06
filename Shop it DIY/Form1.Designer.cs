@@ -39,7 +39,20 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.orIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ordateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orornumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ortotalamountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orEmIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orCmIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orProDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sOrderBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.itIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itproductIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itunitpriceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itQuantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sOrderItemBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -50,6 +63,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.pdIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pdnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pddetailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pdunitpriceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pdstockDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pdtypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button8 = new System.Windows.Forms.Button();
@@ -68,6 +88,13 @@
             this.label24 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.ordateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orornumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ortotalamountDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orEmIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orCmIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orProDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -80,6 +107,7 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.semployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -101,10 +129,17 @@
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.scustomerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.emIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emfirstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emlastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emphoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ememailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emstatusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
@@ -116,7 +151,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cmidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmfirstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmlastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmphoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmemailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -126,67 +167,32 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.scustomerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.cmidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmfirstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmlastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmphoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmemailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.semployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.emIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emfirstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emlastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emphoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ememailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emstatusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pdIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pdnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pddetailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pdunitpriceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pdstockDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pdtypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.itIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itproductIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itunitpriceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itQuantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sOrderItemBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.orIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ordateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orornumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ortotalamountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orEmIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orCmIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orProDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sOrderBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ordateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orornumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ortotalamountDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orEmIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orCmIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orProDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.sproductBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.textBox23 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sOrderBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sOrderItemBindingSource)).BeginInit();
             this.groupBox8.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
             this.groupBox9.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.semployeeBindingSource)).BeginInit();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scustomerBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -195,12 +201,6 @@
             this.groupBox4.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.scustomerBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.semployeeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sOrderItemBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sOrderBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sproductBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -300,7 +300,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Controls.Add(this.dataGridView4);
             this.groupBox1.Location = new System.Drawing.Point(8, 7);
@@ -343,6 +343,73 @@
             this.dataGridView4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
             this.dataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellContentClick);
             // 
+            // orIDDataGridViewTextBoxColumn
+            // 
+            this.orIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orIDDataGridViewTextBoxColumn.DataPropertyName = "Or_ID";
+            this.orIDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.orIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.orIDDataGridViewTextBoxColumn.Name = "orIDDataGridViewTextBoxColumn";
+            this.orIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ordateDataGridViewTextBoxColumn
+            // 
+            this.ordateDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ordateDataGridViewTextBoxColumn.DataPropertyName = "Or_date";
+            this.ordateDataGridViewTextBoxColumn.HeaderText = "Date";
+            this.ordateDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.ordateDataGridViewTextBoxColumn.Name = "ordateDataGridViewTextBoxColumn";
+            this.ordateDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // orornumDataGridViewTextBoxColumn
+            // 
+            this.orornumDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orornumDataGridViewTextBoxColumn.DataPropertyName = "Or_ornum";
+            this.orornumDataGridViewTextBoxColumn.HeaderText = "Order No.";
+            this.orornumDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.orornumDataGridViewTextBoxColumn.Name = "orornumDataGridViewTextBoxColumn";
+            this.orornumDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ortotalamountDataGridViewTextBoxColumn
+            // 
+            this.ortotalamountDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ortotalamountDataGridViewTextBoxColumn.DataPropertyName = "Or_totalamount";
+            this.ortotalamountDataGridViewTextBoxColumn.HeaderText = "Total Amount";
+            this.ortotalamountDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.ortotalamountDataGridViewTextBoxColumn.Name = "ortotalamountDataGridViewTextBoxColumn";
+            this.ortotalamountDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // orEmIDDataGridViewTextBoxColumn
+            // 
+            this.orEmIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orEmIDDataGridViewTextBoxColumn.DataPropertyName = "Or_EmID";
+            this.orEmIDDataGridViewTextBoxColumn.HeaderText = "EmID";
+            this.orEmIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.orEmIDDataGridViewTextBoxColumn.Name = "orEmIDDataGridViewTextBoxColumn";
+            this.orEmIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // orCmIDDataGridViewTextBoxColumn
+            // 
+            this.orCmIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orCmIDDataGridViewTextBoxColumn.DataPropertyName = "Or_CmID";
+            this.orCmIDDataGridViewTextBoxColumn.HeaderText = "CmID";
+            this.orCmIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.orCmIDDataGridViewTextBoxColumn.Name = "orCmIDDataGridViewTextBoxColumn";
+            this.orCmIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // orProDataGridViewTextBoxColumn
+            // 
+            this.orProDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orProDataGridViewTextBoxColumn.DataPropertyName = "Or_Pro";
+            this.orProDataGridViewTextBoxColumn.HeaderText = "Promotion";
+            this.orProDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.orProDataGridViewTextBoxColumn.Name = "orProDataGridViewTextBoxColumn";
+            this.orProDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sOrderBindingSource
+            // 
+            this.sOrderBindingSource.DataSource = typeof(Shop_it_DIY.SOrder);
+            // 
             // dataGridView5
             // 
             this.dataGridView5.AllowUserToAddRows = false;
@@ -366,6 +433,46 @@
             this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView5.Size = new System.Drawing.Size(486, 689);
             this.dataGridView5.TabIndex = 0;
+            // 
+            // itIDDataGridViewTextBoxColumn
+            // 
+            this.itIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.itIDDataGridViewTextBoxColumn.DataPropertyName = "It_ID";
+            this.itIDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.itIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.itIDDataGridViewTextBoxColumn.Name = "itIDDataGridViewTextBoxColumn";
+            this.itIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // itproductIDDataGridViewTextBoxColumn
+            // 
+            this.itproductIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.itproductIDDataGridViewTextBoxColumn.DataPropertyName = "It_productID";
+            this.itproductIDDataGridViewTextBoxColumn.HeaderText = "Product ID";
+            this.itproductIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.itproductIDDataGridViewTextBoxColumn.Name = "itproductIDDataGridViewTextBoxColumn";
+            this.itproductIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // itunitpriceDataGridViewTextBoxColumn
+            // 
+            this.itunitpriceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.itunitpriceDataGridViewTextBoxColumn.DataPropertyName = "It_unitprice";
+            this.itunitpriceDataGridViewTextBoxColumn.HeaderText = "Unit price";
+            this.itunitpriceDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.itunitpriceDataGridViewTextBoxColumn.Name = "itunitpriceDataGridViewTextBoxColumn";
+            this.itunitpriceDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // itQuantityDataGridViewTextBoxColumn
+            // 
+            this.itQuantityDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.itQuantityDataGridViewTextBoxColumn.DataPropertyName = "It_Quantity";
+            this.itQuantityDataGridViewTextBoxColumn.HeaderText = "Quantity";
+            this.itQuantityDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.itQuantityDataGridViewTextBoxColumn.Name = "itQuantityDataGridViewTextBoxColumn";
+            this.itQuantityDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sOrderItemBindingSource
+            // 
+            this.sOrderItemBindingSource.DataSource = typeof(Shop_it_DIY.SOrderItem);
             // 
             // groupBox8
             // 
@@ -495,12 +602,70 @@
             this.dataGridView3.Size = new System.Drawing.Size(1297, 576);
             this.dataGridView3.TabIndex = 0;
             // 
+            // pdIDDataGridViewTextBoxColumn
+            // 
+            this.pdIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pdIDDataGridViewTextBoxColumn.DataPropertyName = "Pd_ID";
+            this.pdIDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.pdIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pdIDDataGridViewTextBoxColumn.Name = "pdIDDataGridViewTextBoxColumn";
+            this.pdIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pdnameDataGridViewTextBoxColumn
+            // 
+            this.pdnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pdnameDataGridViewTextBoxColumn.DataPropertyName = "Pd_name";
+            this.pdnameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.pdnameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pdnameDataGridViewTextBoxColumn.Name = "pdnameDataGridViewTextBoxColumn";
+            this.pdnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pddetailDataGridViewTextBoxColumn
+            // 
+            this.pddetailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pddetailDataGridViewTextBoxColumn.DataPropertyName = "Pd_detail";
+            this.pddetailDataGridViewTextBoxColumn.HeaderText = "Detail";
+            this.pddetailDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pddetailDataGridViewTextBoxColumn.Name = "pddetailDataGridViewTextBoxColumn";
+            this.pddetailDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pdunitpriceDataGridViewTextBoxColumn
+            // 
+            this.pdunitpriceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pdunitpriceDataGridViewTextBoxColumn.DataPropertyName = "Pd_unitprice";
+            this.pdunitpriceDataGridViewTextBoxColumn.HeaderText = "Unit Price";
+            this.pdunitpriceDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pdunitpriceDataGridViewTextBoxColumn.Name = "pdunitpriceDataGridViewTextBoxColumn";
+            this.pdunitpriceDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pdstockDataGridViewTextBoxColumn
+            // 
+            this.pdstockDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pdstockDataGridViewTextBoxColumn.DataPropertyName = "Pd_stock";
+            this.pdstockDataGridViewTextBoxColumn.HeaderText = "Stock";
+            this.pdstockDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pdstockDataGridViewTextBoxColumn.Name = "pdstockDataGridViewTextBoxColumn";
+            this.pdstockDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pdtypeDataGridViewTextBoxColumn
+            // 
+            this.pdtypeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.pdtypeDataGridViewTextBoxColumn.DataPropertyName = "Pd_type";
+            this.pdtypeDataGridViewTextBoxColumn.HeaderText = "Type";
+            this.pdtypeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.pdtypeDataGridViewTextBoxColumn.Name = "pdtypeDataGridViewTextBoxColumn";
+            this.pdtypeDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // bindingSource1
+            // 
+            this.bindingSource1.DataSource = typeof(Shop_it_DIY.Sproduct);
+            // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.groupBox2.Controls.Add(this.comboBox2);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.textBox3);
@@ -619,7 +784,7 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel2.Controls.Add(this.label28);
             this.panel2.Controls.Add(this.label27);
             this.panel2.Controls.Add(this.label26);
@@ -736,6 +901,64 @@
             this.dataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView6.Size = new System.Drawing.Size(1303, 639);
             this.dataGridView6.TabIndex = 0;
+            // 
+            // ordateDataGridViewTextBoxColumn1
+            // 
+            this.ordateDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ordateDataGridViewTextBoxColumn1.DataPropertyName = "Or_date";
+            this.ordateDataGridViewTextBoxColumn1.HeaderText = "Date";
+            this.ordateDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.ordateDataGridViewTextBoxColumn1.Name = "ordateDataGridViewTextBoxColumn1";
+            this.ordateDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // orornumDataGridViewTextBoxColumn1
+            // 
+            this.orornumDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orornumDataGridViewTextBoxColumn1.DataPropertyName = "Or_ornum";
+            this.orornumDataGridViewTextBoxColumn1.HeaderText = "Order No.";
+            this.orornumDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.orornumDataGridViewTextBoxColumn1.Name = "orornumDataGridViewTextBoxColumn1";
+            this.orornumDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // ortotalamountDataGridViewTextBoxColumn1
+            // 
+            this.ortotalamountDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ortotalamountDataGridViewTextBoxColumn1.DataPropertyName = "Or_totalamount";
+            this.ortotalamountDataGridViewTextBoxColumn1.HeaderText = "Total Amount";
+            this.ortotalamountDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.ortotalamountDataGridViewTextBoxColumn1.Name = "ortotalamountDataGridViewTextBoxColumn1";
+            this.ortotalamountDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // orEmIDDataGridViewTextBoxColumn1
+            // 
+            this.orEmIDDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orEmIDDataGridViewTextBoxColumn1.DataPropertyName = "Or_EmID";
+            this.orEmIDDataGridViewTextBoxColumn1.HeaderText = "EmID";
+            this.orEmIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.orEmIDDataGridViewTextBoxColumn1.Name = "orEmIDDataGridViewTextBoxColumn1";
+            this.orEmIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // orCmIDDataGridViewTextBoxColumn1
+            // 
+            this.orCmIDDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orCmIDDataGridViewTextBoxColumn1.DataPropertyName = "Or_CmID";
+            this.orCmIDDataGridViewTextBoxColumn1.HeaderText = "CmID";
+            this.orCmIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.orCmIDDataGridViewTextBoxColumn1.Name = "orCmIDDataGridViewTextBoxColumn1";
+            this.orCmIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // orProDataGridViewTextBoxColumn1
+            // 
+            this.orProDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orProDataGridViewTextBoxColumn1.DataPropertyName = "Or_Pro";
+            this.orProDataGridViewTextBoxColumn1.HeaderText = "Promotion";
+            this.orProDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.orProDataGridViewTextBoxColumn1.Name = "orProDataGridViewTextBoxColumn1";
+            this.orProDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // bindingSource2
+            // 
+            this.bindingSource2.DataSource = typeof(Shop_it_DIY.SOrder);
             // 
             // groupBox9
             // 
@@ -867,10 +1090,15 @@
             this.textBox2.TabIndex = 26;
             this.textBox2.UseSystemPasswordChar = true;
             // 
+            // semployeeBindingSource
+            // 
+            this.semployeeBindingSource.DataSource = typeof(Shop_it_DIY.Semployee);
+            // 
             // groupBox7
             // 
             this.groupBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox7.BackColor = System.Drawing.Color.LightSkyBlue;
             this.groupBox7.Controls.Add(this.textBox2);
             this.groupBox7.Controls.Add(this.textBox1);
             this.groupBox7.Controls.Add(this.label2);
@@ -1097,6 +1325,10 @@
             this.textBox4.Size = new System.Drawing.Size(176, 29);
             this.textBox4.TabIndex = 12;
             // 
+            // scustomerBindingSource
+            // 
+            this.scustomerBindingSource.DataSource = typeof(Shop_it_DIY.Scustomer);
+            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.groupBox7);
@@ -1115,7 +1347,7 @@
             this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox5.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox5.BackColor = System.Drawing.Color.LightSkyBlue;
             this.groupBox5.Controls.Add(this.textBox22);
             this.groupBox5.Controls.Add(this.dataGridView2);
             this.groupBox5.Controls.Add(this.button1);
@@ -1169,6 +1401,60 @@
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView2.Size = new System.Drawing.Size(899, 628);
             this.dataGridView2.TabIndex = 3;
+            // 
+            // emIDDataGridViewTextBoxColumn
+            // 
+            this.emIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.emIDDataGridViewTextBoxColumn.DataPropertyName = "Em_ID";
+            this.emIDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.emIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.emIDDataGridViewTextBoxColumn.Name = "emIDDataGridViewTextBoxColumn";
+            this.emIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emfirstnameDataGridViewTextBoxColumn
+            // 
+            this.emfirstnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.emfirstnameDataGridViewTextBoxColumn.DataPropertyName = "Em_firstname";
+            this.emfirstnameDataGridViewTextBoxColumn.HeaderText = "Firstname";
+            this.emfirstnameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.emfirstnameDataGridViewTextBoxColumn.Name = "emfirstnameDataGridViewTextBoxColumn";
+            this.emfirstnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emlastnameDataGridViewTextBoxColumn
+            // 
+            this.emlastnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.emlastnameDataGridViewTextBoxColumn.DataPropertyName = "Em_lastname";
+            this.emlastnameDataGridViewTextBoxColumn.HeaderText = "Lastname";
+            this.emlastnameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.emlastnameDataGridViewTextBoxColumn.Name = "emlastnameDataGridViewTextBoxColumn";
+            this.emlastnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emphoneDataGridViewTextBoxColumn
+            // 
+            this.emphoneDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.emphoneDataGridViewTextBoxColumn.DataPropertyName = "Em_phone";
+            this.emphoneDataGridViewTextBoxColumn.HeaderText = "Phone";
+            this.emphoneDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.emphoneDataGridViewTextBoxColumn.Name = "emphoneDataGridViewTextBoxColumn";
+            this.emphoneDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ememailDataGridViewTextBoxColumn
+            // 
+            this.ememailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ememailDataGridViewTextBoxColumn.DataPropertyName = "Em_email";
+            this.ememailDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.ememailDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.ememailDataGridViewTextBoxColumn.Name = "ememailDataGridViewTextBoxColumn";
+            this.ememailDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emstatusDataGridViewTextBoxColumn
+            // 
+            this.emstatusDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.emstatusDataGridViewTextBoxColumn.DataPropertyName = "Em_status";
+            this.emstatusDataGridViewTextBoxColumn.HeaderText = "Status";
+            this.emstatusDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.emstatusDataGridViewTextBoxColumn.Name = "emstatusDataGridViewTextBoxColumn";
+            this.emstatusDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // button1
             // 
@@ -1290,7 +1576,7 @@
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox3.BackColor = System.Drawing.Color.LightSkyBlue;
             this.groupBox3.Controls.Add(this.textBox23);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button4);
@@ -1304,6 +1590,14 @@
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ข้อมูลลูกค้าทั้งหมด";
+            // 
+            // textBox23
+            // 
+            this.textBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox23.Location = new System.Drawing.Point(523, 21);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(242, 29);
+            this.textBox23.TabIndex = 24;
             // 
             // dataGridView1
             // 
@@ -1332,6 +1626,51 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(897, 629);
             this.dataGridView1.TabIndex = 2;
+            // 
+            // cmidDataGridViewTextBoxColumn
+            // 
+            this.cmidDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cmidDataGridViewTextBoxColumn.DataPropertyName = "Cm_id";
+            this.cmidDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.cmidDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cmidDataGridViewTextBoxColumn.Name = "cmidDataGridViewTextBoxColumn";
+            this.cmidDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // cmfirstnameDataGridViewTextBoxColumn
+            // 
+            this.cmfirstnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cmfirstnameDataGridViewTextBoxColumn.DataPropertyName = "Cm_firstname";
+            this.cmfirstnameDataGridViewTextBoxColumn.HeaderText = "Firstname";
+            this.cmfirstnameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cmfirstnameDataGridViewTextBoxColumn.Name = "cmfirstnameDataGridViewTextBoxColumn";
+            this.cmfirstnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // cmlastnameDataGridViewTextBoxColumn
+            // 
+            this.cmlastnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cmlastnameDataGridViewTextBoxColumn.DataPropertyName = "Cm_lastname";
+            this.cmlastnameDataGridViewTextBoxColumn.HeaderText = "Lastname";
+            this.cmlastnameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cmlastnameDataGridViewTextBoxColumn.Name = "cmlastnameDataGridViewTextBoxColumn";
+            this.cmlastnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // cmphoneDataGridViewTextBoxColumn
+            // 
+            this.cmphoneDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cmphoneDataGridViewTextBoxColumn.DataPropertyName = "Cm_phone";
+            this.cmphoneDataGridViewTextBoxColumn.HeaderText = "Phone";
+            this.cmphoneDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cmphoneDataGridViewTextBoxColumn.Name = "cmphoneDataGridViewTextBoxColumn";
+            this.cmphoneDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // cmemailDataGridViewTextBoxColumn
+            // 
+            this.cmemailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cmemailDataGridViewTextBoxColumn.DataPropertyName = "Cm_email";
+            this.cmemailDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.cmemailDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cmemailDataGridViewTextBoxColumn.Name = "cmemailDataGridViewTextBoxColumn";
+            this.cmemailDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // label10
             // 
@@ -1440,347 +1779,9 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // scustomerBindingSource
-            // 
-            this.scustomerBindingSource.DataSource = typeof(Shop_it_DIY.Scustomer);
-            // 
-            // cmidDataGridViewTextBoxColumn
-            // 
-            this.cmidDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.cmidDataGridViewTextBoxColumn.DataPropertyName = "Cm_id";
-            this.cmidDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.cmidDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cmidDataGridViewTextBoxColumn.Name = "cmidDataGridViewTextBoxColumn";
-            this.cmidDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // cmfirstnameDataGridViewTextBoxColumn
-            // 
-            this.cmfirstnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.cmfirstnameDataGridViewTextBoxColumn.DataPropertyName = "Cm_firstname";
-            this.cmfirstnameDataGridViewTextBoxColumn.HeaderText = "Firstname";
-            this.cmfirstnameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cmfirstnameDataGridViewTextBoxColumn.Name = "cmfirstnameDataGridViewTextBoxColumn";
-            this.cmfirstnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // cmlastnameDataGridViewTextBoxColumn
-            // 
-            this.cmlastnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.cmlastnameDataGridViewTextBoxColumn.DataPropertyName = "Cm_lastname";
-            this.cmlastnameDataGridViewTextBoxColumn.HeaderText = "Lastname";
-            this.cmlastnameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cmlastnameDataGridViewTextBoxColumn.Name = "cmlastnameDataGridViewTextBoxColumn";
-            this.cmlastnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // cmphoneDataGridViewTextBoxColumn
-            // 
-            this.cmphoneDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.cmphoneDataGridViewTextBoxColumn.DataPropertyName = "Cm_phone";
-            this.cmphoneDataGridViewTextBoxColumn.HeaderText = "Phone";
-            this.cmphoneDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cmphoneDataGridViewTextBoxColumn.Name = "cmphoneDataGridViewTextBoxColumn";
-            this.cmphoneDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // cmemailDataGridViewTextBoxColumn
-            // 
-            this.cmemailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.cmemailDataGridViewTextBoxColumn.DataPropertyName = "Cm_email";
-            this.cmemailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.cmemailDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cmemailDataGridViewTextBoxColumn.Name = "cmemailDataGridViewTextBoxColumn";
-            this.cmemailDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // semployeeBindingSource
-            // 
-            this.semployeeBindingSource.DataSource = typeof(Shop_it_DIY.Semployee);
-            // 
-            // emIDDataGridViewTextBoxColumn
-            // 
-            this.emIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.emIDDataGridViewTextBoxColumn.DataPropertyName = "Em_ID";
-            this.emIDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.emIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.emIDDataGridViewTextBoxColumn.Name = "emIDDataGridViewTextBoxColumn";
-            this.emIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emfirstnameDataGridViewTextBoxColumn
-            // 
-            this.emfirstnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.emfirstnameDataGridViewTextBoxColumn.DataPropertyName = "Em_firstname";
-            this.emfirstnameDataGridViewTextBoxColumn.HeaderText = "Firstname";
-            this.emfirstnameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.emfirstnameDataGridViewTextBoxColumn.Name = "emfirstnameDataGridViewTextBoxColumn";
-            this.emfirstnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emlastnameDataGridViewTextBoxColumn
-            // 
-            this.emlastnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.emlastnameDataGridViewTextBoxColumn.DataPropertyName = "Em_lastname";
-            this.emlastnameDataGridViewTextBoxColumn.HeaderText = "Lastname";
-            this.emlastnameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.emlastnameDataGridViewTextBoxColumn.Name = "emlastnameDataGridViewTextBoxColumn";
-            this.emlastnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emphoneDataGridViewTextBoxColumn
-            // 
-            this.emphoneDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.emphoneDataGridViewTextBoxColumn.DataPropertyName = "Em_phone";
-            this.emphoneDataGridViewTextBoxColumn.HeaderText = "Phone";
-            this.emphoneDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.emphoneDataGridViewTextBoxColumn.Name = "emphoneDataGridViewTextBoxColumn";
-            this.emphoneDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ememailDataGridViewTextBoxColumn
-            // 
-            this.ememailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ememailDataGridViewTextBoxColumn.DataPropertyName = "Em_email";
-            this.ememailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.ememailDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.ememailDataGridViewTextBoxColumn.Name = "ememailDataGridViewTextBoxColumn";
-            this.ememailDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emstatusDataGridViewTextBoxColumn
-            // 
-            this.emstatusDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.emstatusDataGridViewTextBoxColumn.DataPropertyName = "Em_status";
-            this.emstatusDataGridViewTextBoxColumn.HeaderText = "Status";
-            this.emstatusDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.emstatusDataGridViewTextBoxColumn.Name = "emstatusDataGridViewTextBoxColumn";
-            this.emstatusDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pdIDDataGridViewTextBoxColumn
-            // 
-            this.pdIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pdIDDataGridViewTextBoxColumn.DataPropertyName = "Pd_ID";
-            this.pdIDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.pdIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pdIDDataGridViewTextBoxColumn.Name = "pdIDDataGridViewTextBoxColumn";
-            this.pdIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pdnameDataGridViewTextBoxColumn
-            // 
-            this.pdnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pdnameDataGridViewTextBoxColumn.DataPropertyName = "Pd_name";
-            this.pdnameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.pdnameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pdnameDataGridViewTextBoxColumn.Name = "pdnameDataGridViewTextBoxColumn";
-            this.pdnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pddetailDataGridViewTextBoxColumn
-            // 
-            this.pddetailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pddetailDataGridViewTextBoxColumn.DataPropertyName = "Pd_detail";
-            this.pddetailDataGridViewTextBoxColumn.HeaderText = "Detail";
-            this.pddetailDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pddetailDataGridViewTextBoxColumn.Name = "pddetailDataGridViewTextBoxColumn";
-            this.pddetailDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pdunitpriceDataGridViewTextBoxColumn
-            // 
-            this.pdunitpriceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pdunitpriceDataGridViewTextBoxColumn.DataPropertyName = "Pd_unitprice";
-            this.pdunitpriceDataGridViewTextBoxColumn.HeaderText = "Unit Price";
-            this.pdunitpriceDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pdunitpriceDataGridViewTextBoxColumn.Name = "pdunitpriceDataGridViewTextBoxColumn";
-            this.pdunitpriceDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pdstockDataGridViewTextBoxColumn
-            // 
-            this.pdstockDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pdstockDataGridViewTextBoxColumn.DataPropertyName = "Pd_stock";
-            this.pdstockDataGridViewTextBoxColumn.HeaderText = "Stock";
-            this.pdstockDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pdstockDataGridViewTextBoxColumn.Name = "pdstockDataGridViewTextBoxColumn";
-            this.pdstockDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // pdtypeDataGridViewTextBoxColumn
-            // 
-            this.pdtypeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pdtypeDataGridViewTextBoxColumn.DataPropertyName = "Pd_type";
-            this.pdtypeDataGridViewTextBoxColumn.HeaderText = "Type";
-            this.pdtypeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pdtypeDataGridViewTextBoxColumn.Name = "pdtypeDataGridViewTextBoxColumn";
-            this.pdtypeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // bindingSource1
-            // 
-            this.bindingSource1.DataSource = typeof(Shop_it_DIY.Sproduct);
-            // 
-            // itIDDataGridViewTextBoxColumn
-            // 
-            this.itIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.itIDDataGridViewTextBoxColumn.DataPropertyName = "It_ID";
-            this.itIDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.itIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.itIDDataGridViewTextBoxColumn.Name = "itIDDataGridViewTextBoxColumn";
-            this.itIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // itproductIDDataGridViewTextBoxColumn
-            // 
-            this.itproductIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.itproductIDDataGridViewTextBoxColumn.DataPropertyName = "It_productID";
-            this.itproductIDDataGridViewTextBoxColumn.HeaderText = "Product ID";
-            this.itproductIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.itproductIDDataGridViewTextBoxColumn.Name = "itproductIDDataGridViewTextBoxColumn";
-            this.itproductIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // itunitpriceDataGridViewTextBoxColumn
-            // 
-            this.itunitpriceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.itunitpriceDataGridViewTextBoxColumn.DataPropertyName = "It_unitprice";
-            this.itunitpriceDataGridViewTextBoxColumn.HeaderText = "Unit price";
-            this.itunitpriceDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.itunitpriceDataGridViewTextBoxColumn.Name = "itunitpriceDataGridViewTextBoxColumn";
-            this.itunitpriceDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // itQuantityDataGridViewTextBoxColumn
-            // 
-            this.itQuantityDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.itQuantityDataGridViewTextBoxColumn.DataPropertyName = "It_Quantity";
-            this.itQuantityDataGridViewTextBoxColumn.HeaderText = "Quantity";
-            this.itQuantityDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.itQuantityDataGridViewTextBoxColumn.Name = "itQuantityDataGridViewTextBoxColumn";
-            this.itQuantityDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // sOrderItemBindingSource
-            // 
-            this.sOrderItemBindingSource.DataSource = typeof(Shop_it_DIY.SOrderItem);
-            // 
-            // orIDDataGridViewTextBoxColumn
-            // 
-            this.orIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orIDDataGridViewTextBoxColumn.DataPropertyName = "Or_ID";
-            this.orIDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.orIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.orIDDataGridViewTextBoxColumn.Name = "orIDDataGridViewTextBoxColumn";
-            this.orIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ordateDataGridViewTextBoxColumn
-            // 
-            this.ordateDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ordateDataGridViewTextBoxColumn.DataPropertyName = "Or_date";
-            this.ordateDataGridViewTextBoxColumn.HeaderText = "Date";
-            this.ordateDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.ordateDataGridViewTextBoxColumn.Name = "ordateDataGridViewTextBoxColumn";
-            this.ordateDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // orornumDataGridViewTextBoxColumn
-            // 
-            this.orornumDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orornumDataGridViewTextBoxColumn.DataPropertyName = "Or_ornum";
-            this.orornumDataGridViewTextBoxColumn.HeaderText = "Order No.";
-            this.orornumDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.orornumDataGridViewTextBoxColumn.Name = "orornumDataGridViewTextBoxColumn";
-            this.orornumDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ortotalamountDataGridViewTextBoxColumn
-            // 
-            this.ortotalamountDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ortotalamountDataGridViewTextBoxColumn.DataPropertyName = "Or_totalamount";
-            this.ortotalamountDataGridViewTextBoxColumn.HeaderText = "Total Amount";
-            this.ortotalamountDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.ortotalamountDataGridViewTextBoxColumn.Name = "ortotalamountDataGridViewTextBoxColumn";
-            this.ortotalamountDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // orEmIDDataGridViewTextBoxColumn
-            // 
-            this.orEmIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orEmIDDataGridViewTextBoxColumn.DataPropertyName = "Or_EmID";
-            this.orEmIDDataGridViewTextBoxColumn.HeaderText = "EmID";
-            this.orEmIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.orEmIDDataGridViewTextBoxColumn.Name = "orEmIDDataGridViewTextBoxColumn";
-            this.orEmIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // orCmIDDataGridViewTextBoxColumn
-            // 
-            this.orCmIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orCmIDDataGridViewTextBoxColumn.DataPropertyName = "Or_CmID";
-            this.orCmIDDataGridViewTextBoxColumn.HeaderText = "CmID";
-            this.orCmIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.orCmIDDataGridViewTextBoxColumn.Name = "orCmIDDataGridViewTextBoxColumn";
-            this.orCmIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // orProDataGridViewTextBoxColumn
-            // 
-            this.orProDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orProDataGridViewTextBoxColumn.DataPropertyName = "Or_Pro";
-            this.orProDataGridViewTextBoxColumn.HeaderText = "Promotion";
-            this.orProDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.orProDataGridViewTextBoxColumn.Name = "orProDataGridViewTextBoxColumn";
-            this.orProDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // sOrderBindingSource
-            // 
-            this.sOrderBindingSource.DataSource = typeof(Shop_it_DIY.SOrder);
-            // 
-            // ordateDataGridViewTextBoxColumn1
-            // 
-            this.ordateDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ordateDataGridViewTextBoxColumn1.DataPropertyName = "Or_date";
-            this.ordateDataGridViewTextBoxColumn1.HeaderText = "Date";
-            this.ordateDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.ordateDataGridViewTextBoxColumn1.Name = "ordateDataGridViewTextBoxColumn1";
-            this.ordateDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // orornumDataGridViewTextBoxColumn1
-            // 
-            this.orornumDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orornumDataGridViewTextBoxColumn1.DataPropertyName = "Or_ornum";
-            this.orornumDataGridViewTextBoxColumn1.HeaderText = "Order No.";
-            this.orornumDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.orornumDataGridViewTextBoxColumn1.Name = "orornumDataGridViewTextBoxColumn1";
-            this.orornumDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // ortotalamountDataGridViewTextBoxColumn1
-            // 
-            this.ortotalamountDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ortotalamountDataGridViewTextBoxColumn1.DataPropertyName = "Or_totalamount";
-            this.ortotalamountDataGridViewTextBoxColumn1.HeaderText = "Total Amount";
-            this.ortotalamountDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.ortotalamountDataGridViewTextBoxColumn1.Name = "ortotalamountDataGridViewTextBoxColumn1";
-            this.ortotalamountDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // orEmIDDataGridViewTextBoxColumn1
-            // 
-            this.orEmIDDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orEmIDDataGridViewTextBoxColumn1.DataPropertyName = "Or_EmID";
-            this.orEmIDDataGridViewTextBoxColumn1.HeaderText = "EmID";
-            this.orEmIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.orEmIDDataGridViewTextBoxColumn1.Name = "orEmIDDataGridViewTextBoxColumn1";
-            this.orEmIDDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // orCmIDDataGridViewTextBoxColumn1
-            // 
-            this.orCmIDDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orCmIDDataGridViewTextBoxColumn1.DataPropertyName = "Or_CmID";
-            this.orCmIDDataGridViewTextBoxColumn1.HeaderText = "CmID";
-            this.orCmIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.orCmIDDataGridViewTextBoxColumn1.Name = "orCmIDDataGridViewTextBoxColumn1";
-            this.orCmIDDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // orProDataGridViewTextBoxColumn1
-            // 
-            this.orProDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orProDataGridViewTextBoxColumn1.DataPropertyName = "Or_Pro";
-            this.orProDataGridViewTextBoxColumn1.HeaderText = "Promotion";
-            this.orProDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.orProDataGridViewTextBoxColumn1.Name = "orProDataGridViewTextBoxColumn1";
-            this.orProDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // bindingSource2
-            // 
-            this.bindingSource2.DataSource = typeof(Shop_it_DIY.SOrder);
-            // 
             // sproductBindingSource
             // 
             this.sproductBindingSource.DataSource = typeof(Shop_it_DIY.Sproduct);
-            // 
-            // textBox23
-            // 
-            this.textBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox23.Location = new System.Drawing.Point(523, 21);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(242, 29);
-            this.textBox23.TabIndex = 24;
             // 
             // Form1
             // 
@@ -1798,10 +1799,13 @@
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sOrderBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sOrderItemBindingSource)).EndInit();
             this.groupBox8.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.tabPage5.ResumeLayout(false);
@@ -1810,14 +1814,17 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).EndInit();
             this.groupBox9.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.semployeeBindingSource)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scustomerBindingSource)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
@@ -1829,12 +1836,6 @@
             this.groupBox4.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.scustomerBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.semployeeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sOrderItemBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sOrderBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sproductBindingSource)).EndInit();
             this.ResumeLayout(false);
 
